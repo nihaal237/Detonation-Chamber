@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Malware samples (never upload)
+*.exe
+*.dll
+*.sys
+
+# Raw datasets and analysis outputs
+data/raw/
+data/processed/
+
+# Trained models
+artifacts/
+
+# Logs
+*.log
+*.evtx
+*.pml
