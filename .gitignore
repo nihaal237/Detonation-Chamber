@@ -1,26 +1,33 @@
-# Python virtual environment
+# Python
 .venv/
-
-# Python cache files
 __pycache__/
 *.pyc
+.pytest_cache/
 
-# Environment variables
+# Secrets
 .env
+.env.*
+!.env.example
 
-# Malware samples (never upload)
+# Executables and malware samples
 *.exe
 *.dll
 *.sys
+*.bin
+*.zip
+*.7z
+*.rar
 
-# Raw datasets and analysis outputs
+# Datasets and generated outputs
 data/raw/
 data/processed/
+data/samples_metadata/
 
-# Trained models
+# Model artifacts
 artifacts/
 
-# Logs
+# Reports and logs
+reports/
 *.log
 *.evtx
 *.pml
